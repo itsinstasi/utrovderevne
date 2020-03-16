@@ -1,14 +1,16 @@
 ﻿<!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
-    <title>вакцинаоткоро новируса</title>
-    <meta name="title" content="вакцинаоткоро новируса">
+    <title>Мамочки!</title>
     
     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/> 
     <script async src="https://use.fontawesome.com/d758daec41.js"></script>   
 	<link rel="stylesheet" href="../css/style.css"/>
+    
+    <meta name="description" content="Мамочки!">
+    <meta name="keywords" content="" />
     
     <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
@@ -16,10 +18,10 @@
     <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
     <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../img/favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
@@ -27,9 +29,23 @@
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#fff">
+    
+    <link rel="image_src" href="https://scontent-frx5-1.cdninstagram.com/v/t51.2885-15/e35/89694346_662873407812299_3882678892037608499_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_cat=111&_nc_ohc=VY8Yy8u-ZO4AX-pDFDy&oh=7a86d1b853f084ba1196caefa613e8e5&oe=5EA74D4C" />
+    <meta name="robots" content="INDEX, FOLLOW" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://utrovderevne.itsinsta.site/posts/mamochki.html" />
+    <meta property="og:image" content="https://scontent-frx5-1.cdninstagram.com/v/t51.2885-15/e35/89694346_662873407812299_3882678892037608499_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_cat=111&_nc_ohc=VY8Yy8u-ZO4AX-pDFDy&oh=7a86d1b853f084ba1196caefa613e8e5&oe=5EA74D4C" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1080"/>
+    <meta property="og:image:height" content="1050"/>
+    <meta property="og:title" content="Мамочки!" />
+    <meta property="og:description" content="Мамочки!" />
+    <meta property="og:locale" content="Ru-ru" />
+    <meta property="og:site_name" content="utrovderevne" />
 
 	<!--modernizr-->
 	<script src="../js/vendors/modernizr-custom.js"></script>
+
 
 
 
@@ -44,7 +60,7 @@
 		Вам нужно включить JavaScript в своем браузере, чтобы  отображение этой страницы было корректно.
     </noscript>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header" id="js-header">
 			<div class="container">
 				<div class="header__wrap">
 					<div class="header__left">
@@ -54,12 +70,6 @@
 						</a>
 						<div class="header__title">Утро в деревне - крутой отдых!</div>
 					</div>
-					<!--<div class="header__right">
-						<form action="#" method="get" class="search">
-							<input type="search" class="input search__input" placeholder="Поиск">
-							<button class="btn search__btn" type="submit" title="Искать"><i class="fa fa-search" aria-hidden="true"></i></button>
-						</form>
-					</div>-->
 				</div>
 			</div>
 		</header>	
@@ -67,11 +77,14 @@
 			<section class="big-banner" style="background-image: url(https://lichnyj-brend.ru/img/landing/pink.jpg);">
 				<div class="container">
 					<div class="big-banner__wrapper">
-						<h1 class="big-banner__title">вакцинаоткоро новируса</h1>
-						<div class="big-banner__bar">
+						<h1 class="big-banner__title">Мамочки!</h1>
+						<h2 class="big-banner__txt">Я не знаю когда в современных школах КАНИКУЛЫ, но к нам можно приехать на любые школьные каникулы.</h2>
+						<div class="big-banner__bar"
+>
 							<div class="main-sec__contacts">
 								<div class="main-sec__contacts-wrap" id="js-cont-list">
-									<div class="main-sec__contacts-btn" id="js-cont-list-btn" onclick="document.getElementById('js-cont-list').classList.toggle('open');">Сообщение</div>
+									<div class="main-sec__contacts-btn" id="js-cont-list-btn" 
+										onclick="document.getElementById('js-cont-list').classList.toggle('open');">Сообщение</div>
 									<ul class="main-sec__contacts-list">
 										<li><a href="https://wa.me/+79106605416" 
 										target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp</a></li>
@@ -95,7 +108,7 @@
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
 									<div class="stories__slide" title="конныетуры">
-										<a href="./konnyetury.html">
+										<a href="./tags/./konnyetury.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/konnyetury.png);"></div>
 											<div class="stories__slide-txt">конныетуры</div>
 										</a>
@@ -103,7 +116,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="крутойотдых">
-										<a href="./krutoyotdykh.html">
+										<a href="./tags/./krutoyotdykh.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/krutoyotdykh.png);"></div>
 											<div class="stories__slide-txt">крутойотдых</div>
 										</a>
@@ -111,7 +124,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="отдых длясемьи">
-										<a href="./otdykh-dlyasem-i.html">
+										<a href="./tags/./otdykh-dlyasem-i.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/otdykh-dlyasem-i.png);"></div>
 											<div class="stories__slide-txt">отдых длясемьи</div>
 										</a>
@@ -119,7 +132,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="отдыхнамайские">
-										<a href="./otdykhnamayskie.html">
+										<a href="./tags/./otdykhnamayskie.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/otdykhnamayskie.png);"></div>
 											<div class="stories__slide-txt">отдыхнамайские</div>
 										</a>
@@ -127,7 +140,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="конныепрогулки">
-										<a href="./konnyeprogulki.html">
+										<a href="./tags/./konnyeprogulki.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/konnyeprogulki.png);"></div>
 											<div class="stories__slide-txt">конныепрогулки</div>
 										</a>
@@ -135,7 +148,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="лучшийотдых2020">
-										<a href="./luchshiyotdykh2020.html">
+										<a href="./tags/./luchshiyotdykh2020.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/luchshiyotdykh2020.png);"></div>
 											<div class="stories__slide-txt">лучшийотдых2020</div>
 										</a>
@@ -143,7 +156,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="конныйтуризм2020">
-										<a href="./konnyyturizm2020.html">
+										<a href="./tags/./konnyyturizm2020.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/konnyyturizm2020.png);"></div>
 											<div class="stories__slide-txt">конныйтуризм2020</div>
 										</a>
@@ -151,7 +164,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="красивыйотдых2020">
-										<a href="./krasivyyotdykh2020.html">
+										<a href="./tags/./krasivyyotdykh2020.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/krasivyyotdykh2020.png);"></div>
 											<div class="stories__slide-txt">красивыйотдых2020</div>
 										</a>
@@ -159,7 +172,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="сельскийтуризм2020">
-										<a href="./sel-skiyturizm2020.html">
+										<a href="./tags/./sel-skiyturizm2020.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/sel-skiyturizm2020.png);"></div>
 											<div class="stories__slide-txt">сельскийтуризм2020</div>
 										</a>
@@ -167,7 +180,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="незабываемаяприрода">
-										<a href="./nezabyvaemayapriroda.html">
+										<a href="./tags/./nezabyvaemayapriroda.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/nezabyvaemayapriroda.png);"></div>
 											<div class="stories__slide-txt">незабываемаяприрода</div>
 										</a>
@@ -175,7 +188,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="сельскийтуризмроссия">
-										<a href="./sel-skiyturizmrossiya.html">
+										<a href="./tags/./sel-skiyturizmrossiya.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/sel-skiyturizmrossiya.png);"></div>
 											<div class="stories__slide-txt">сельскийтуризмроссия</div>
 										</a>
@@ -183,7 +196,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="кудапоехатьнамайские">
-										<a href="./kudapoekhat-namayskie.html">
+										<a href="./tags/./kudapoekhat-namayskie.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/kudapoekhat-namayskie.png);"></div>
 											<div class="stories__slide-txt">кудапоехатьнамайские</div>
 										</a>
@@ -191,7 +204,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="вакцинаоткоро новируса">
-										<a href="./vaktsinaotkoro-novirusa.html">
+										<a href="./tags/./vaktsinaotkoro-novirusa.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/vaktsinaotkoro-novirusa.png);"></div>
 											<div class="stories__slide-txt">вакцинаоткоро новируса</div>
 										</a>
@@ -199,7 +212,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="отдыхнаприродекострома">
-										<a href="./otdykhnaprirodekostroma.html">
+										<a href="./tags/./otdykhnaprirodekostroma.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/otdykhnaprirodekostroma.png);"></div>
 											<div class="stories__slide-txt">отдыхнаприродекострома</div>
 										</a>
@@ -207,7 +220,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="утров деревне">
-										<a href="./utrov-derevne.html">
+										<a href="./tags/./utrov-derevne.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/utrov-derevne.png);"></div>
 											<div class="stories__slide-txt">утров деревне</div>
 										</a>
@@ -222,31 +235,122 @@
 			</div>
 			<nav class="breadcrumbs">
 				<div class="container">
-					<a href="../main.html">Главная</a> / <span>вакцинаоткоро новируса</span>
+					<a href="../main.html">Главная</a> / <span>Мамочки!</span>
 				</div>
 			</nav>
-			<div class="tag">
+			<article class="article">
 				<div class="container">
-					<div class="tag__group">
-						<div class="tag__item-list">
-							<a href="../posts/./na-mayskie-prazdniki.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-frx5-1.cdninstagram.com/v/t51.2885-15/e35/89834421_625302358310398_8470670316322673197_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_cat=110&_nc_ohc=VsJTPMAS7S4AX8ZE3lB&oh=f07df07e56adef6ceb137c8fb1f7816e&oe=5EA5E3FB" alt=""></div>
-								<div class="tag__item-desc">
-									<div class="tag__item-datas">
-										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2020-03-14">14 March 2020</time></div>
-										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>51</div>
-									</div>
-									<div class="tag__item-txt">
-										<h2>На майские праздники!</h2>
-										<p>На майские праздники! Всей семьёй или с друзьями на конные маршруты. Путешествие в настоящую деревенскую жизнь на нашей конеферме. Проживание в уютном доме, домашнее питание, все конные маршруты на каждый день. И много интересного из нашего быта. К нам можно приехать и одному, и компанией. Пишите, спрашивайте, бронируйте: 8-910-660-54-16.</p>
-										<p>...ЧИТАТЬ ДАЛЕЕ</p>
-									</div>
-								</div>
-							</a>
+					<div class="article__header">
+						<div class="article__datas">
+							<div class="article__datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2020-03-15">15 March 2020</time></div>
+							<a href="https://www.instagram.com/p/B9vmQ6ToEqr/" 
+								target="_blank" class="article__datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</a>
+							<a href="https://www.instagram.com/p/B9vmQ6ToEqr/" 
+								target="_blank" class="article__datas-item"><i class="fa fa-heart" aria-hidden="true"></i>32</a>
 						</div>
 					</div>
-				</div>
-			</div>			
+					<div class="article__wrap" id="ja-article-wrap">
+						<div class="article-main">
+							<div class="article-content">
+								<figure>
+									<img src="https://scontent-frx5-1.cdninstagram.com/v/t51.2885-15/e35/89694346_662873407812299_3882678892037608499_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_cat=111&_nc_ohc=VY8Yy8u-ZO4AX-pDFDy&oh=7a86d1b853f084ba1196caefa613e8e5&oe=5EA74D4C" alt="">
+								</figure> 
+								<p>Мамочки! Я не знаю когда в современных школах КАНИКУЛЫ, но к нам можно приехать на любые школьные каникулы. 👩‍👧‍👦С детьми от 7 лет. В сопровождение взрослого. Детям у нас очень нравится: так они с инструктором принимают участие во всех делах на конюшне. Заведут, выведут, почистят, подседлают, поучатся верховой езде и вечернее кормление лакомством- овсом. Пишите, спрашивайте. <br/>Проживание, питание, и другие удобства для жизни детей, мам, пап, бабушек и дедушек - все имеется.<br/></p> 
+							</div>
+						<div>
+							<a href="https://www.instagram.com/p/B9vmQ6ToEqr/" 
+								target="_blank" class="links-page-btn shake"><strong>Комментировать</strong><small>Instagram</small>
+							</a>
+						</div>
+
+						</div>
+						<aside class="article-bar">
+							<h2 class="article-more__title">ПОХОЖИЕ</h2>
+							<div class="article-bar__tagsgroupe" id="js-tags">
+							</div>
+						</aside>
+					</div>
+					<section class="article-more">
+						<div class="container">
+							<h2 class="article-more__title">ПОПУЛЯРНЫЕ</h2>
+							<div class="article-more__list">
+								<a href="./puteshestvie-po-kostromskoy-oblasti.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>63</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/88986769_2897124367013295_2384283647814745417_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=103&_nc_ohc=_MYx5Lhuu1AAX_bHPQQ&oh=5b5e7ca6a3cb8df11af470a8448e3722&oe=5EA47FF3" alt="Путешествие по Костромской области">
+									</div>
+									<div class="article-more__item-name">Путешествие по Костромской области</div>
+								</a>
+								<a href="./na-mayskie-prazdniki-1.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>60</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-frt3-1.cdninstagram.com/v/t51.2885-15/e35/90051278_508568863389272_2867912669450132440_n.jpg?_nc_ht=scontent-frt3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=r046YKQlwIQAX9jWxtw&oh=3f1b6e95fa3a53004f22a749362c5caf&oe=5EA13907" alt="На майские праздники!">
+									</div>
+									<div class="article-more__item-name">На майские праздники!</div>
+								</a>
+								<a href="./druz-ya.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>55</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/89363149_113998336877893_3458166167320260541_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=101&_nc_ohc=R-E8zfyOe_MAX-BO-sF&oh=60e735b39d7119dcef0ea8e893c53d95&oe=5E9EB1CE" alt="Друзья!">
+									</div>
+									<div class="article-more__item-name">Друзья!</div>
+								</a>
+								<a href="./odin-den--na-nashey-koneferme.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>53</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-frx5-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/89715397_714109169357724_5608901873396967054_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_cat=100&_nc_ohc=M7V45C1o-hQAX8px4i6&oh=79d5eb6c4d15756165dd59c8354bc4a1&oe=5EA1F8D8" alt="Один день на нашей конеферме.">
+									</div>
+									<div class="article-more__item-name">Один день на нашей конеферме.</div>
+								</a>
+								<a href="./na-zaezd-7-9-marta-eshchyo-est--mesta.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>53</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-frt3-1.cdninstagram.com/v/t51.2885-15/e35/88281176_123442265890710_5972591580373648444_n.jpg?_nc_ht=scontent-frt3-1.cdninstagram.com&_nc_cat=106&_nc_ohc=s-9bTIQ5pfcAX_7tC4X&oh=14c0f6062548e62dca63c5fdc0935271&oe=5EA1B4C2" alt="На заезд 7-9 марта ещё есть места.">
+									</div>
+									<div class="article-more__item-name">На заезд 7-9 марта ещё есть места.</div>
+								</a>
+								<a href="./na-mayskie-prazdniki.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>51</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-frx5-1.cdninstagram.com/v/t51.2885-15/e35/89834421_625302358310398_8470670316322673197_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_cat=110&_nc_ohc=VsJTPMAS7S4AX8ZE3lB&oh=f07df07e56adef6ceb137c8fb1f7816e&oe=5EA5E3FB" alt="На майские праздники!">
+									</div>
+									<div class="article-more__item-name">На майские праздники!</div>
+								</a>
+								<a href="./u-nas-zimnie-peyzazhi---tak-neozhidanno.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>50</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-frt3-1.cdninstagram.com/v/t51.2885-15/e35/89464772_3004375289619988_7889467292814790254_n.jpg?_nc_ht=scontent-frt3-1.cdninstagram.com&_nc_cat=104&_nc_ohc=I7J8buQ4joAAX-rM6JV&oh=10174bfbe32ce17d53b7682b49c2a625&oe=5EA5D7C8" alt="У нас зимние пейзажи - так неожиданно.">
+									</div>
+									<div class="article-more__item-name">У нас зимние пейзажи - так неожиданно.</div>
+								</a>
+								<a href="./konnye-marshruty.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>45</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-frt3-2.cdninstagram.com/v/t51.2885-15/e35/84344687_491278918214763_1944120054616078151_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com&_nc_cat=103&_nc_ohc=n9LmM9tJw_YAX-l3jgx&oh=89d390e709456cf9bdb8fbec3e34fa44&oe=5E9BD8F2" alt="Конные маршруты.">
+									</div>
+									<div class="article-more__item-name">Конные маршруты.</div>
+								</a>
+							</div>
+						</div>
+					</section>		
+				</div>			
+			</article>			
 		</div>			
 		<div class="banner">
 			<div class="banner__overlay" id="js-banner-overlay" onclick="document.getElementById('js-banner-overlay').classList.toggle('open');document.getElementById('js-banner-main').classList.toggle('open');"></div>
@@ -287,7 +391,7 @@
 
 				</div>
 			</div>
-		</div>			
+		</div>		
 	</div>
 	<!--swiper-->
 	<script src="../js/vendors/swiper.min.js"></script>
